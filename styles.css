@@ -35,3 +35,7 @@ h1 {
 p {
   text-align: center;
 }
+.btn{
+justify-content: center;
+  display: flex;
+}
