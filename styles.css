@@ -10,19 +10,21 @@ body {
 .pal {
   padding: 10px;
   border-radius: 20px;
-  border: 3px solid rgb(236, 225, 225);
+  border: none;
   width: 300px;
-  margin-top: 20px;
 }
 .prl {
   color: #9633ff;
 }
 .button {
   background-color: #9633ff;
+  border: none;
   color: white;
   border-radius: 10px;
-  width: 150px;
   cursor: pointer;
+  width: 200px;
+  padding: 10px;
+  
 }
 #container {
   justify-content: center;
@@ -35,7 +37,20 @@ h1 {
 p {
   text-align: center;
 }
-.btn{
-justify-content: center;
+.btn {
+  justify-content: center;
   display: flex;
+}
+.icon {
+  border: 3px solid rgb(236, 225, 225);
+  border-radius: 10px;
+  padding-left: 10px;
+  justify-content: space-between;
+  display: flex;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.s-icon {
+  align-self: center;
 }
