@@ -9,13 +9,13 @@ body {
 }
 .pal {
   padding: 10px;
-  border-radius: 20px;
+
   border: none;
   width: 300px;
+
+  outline: none;
 }
-.prl {
-  color: #9633ff;
-}
+
 .button {
   background-color: #9633ff;
   border: none;
@@ -24,7 +24,6 @@ body {
   cursor: pointer;
   width: 200px;
   padding: 10px;
-  
 }
 #container {
   justify-content: center;
@@ -54,3 +53,4 @@ p {
 .s-icon {
   align-self: center;
 }
+/* The outline was the cause of the rectangle box around the input */
